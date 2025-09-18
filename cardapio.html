@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            background-image: url(/img/Background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        body, h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 0 auto;
+            background-color: rgba(252, 231, 205, 0.85);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(252, 231, 205, 0.85);
+            caption-side: top; 
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 2px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: rgba(252, 231, 205, 0.85);
+            font-weight: bold;
+        }
+
+        td[rowspan] {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        td:nth-child(4) {
+            white-space: nowrap;
+        }
+        
+        .preco {
+            text-align: right;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #ff003c;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav style="background-color: rgb(252, 231, 205); padding: 10px; color: white; display: flex; justify-content: space-around;">
+            <a href="index.html">Home</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <h1>Cardápio</h1>
+
+    <div class="table-container">
+        <table>
+            <caption>Pratos da Casa</caption>
+            <thead>
+                <tr>
+                    <th>Prato</th>
+                    <th>Descrição</th>
+                    <th>Ingredientes</th>
+                    <th>Tempo de Preparo</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kimchi (김치)</td>
+                    <td>Considerado a base da culinária coreana e patrimônio cultural imaterial da humanidade pela UNESCO, o Kimchi é um acompanhamento fermentado feito tradicionalmente com acelga e uma pasta de pimenta vermelha chamada gochujang. Seu sabor é complexo, variando entre o picante, o ácido e o umami, e seus benefícios probióticos são amplamente reconhecidos.</td>
+                    <td>Acelga, Sal grosso, Farinha de arroz, Açúcar, Água, Gengibre fresco, Alho, Pimenta em flocos, Nabo, Cebolinha</td>
+                    <td>1 a 2 horas</td>
+                    <td class="preco">R$ 42,00</td>
+                </tr>
+                <tr>
+                    <td>Bulgogi (불고기)</td>
+                    <td>Conhecido como o "churrasco coreano", o Bulgogi consiste em finas fatias de carne bovina marinadas em um molho adocicado e saboroso, e depois grelhadas. A carne fica extremamente macia e suculenta, com um equilíbrio perfeito entre o doce e o salgado. É frequentemente servido com arroz branco e uma variedade de acompanhamentos.</td>
+                    <td>Contrafilé ou alcatra em fatias finas, Molho de soja (shoyu), Açúcar mascavo ou mel, Óleo de gergelim torrado, Alho picado, Gengibre fresco ralado, Pera asiática ou maçã ralada (para amaciar a carne), Cebola, Cebolinha, Pimenta do reino</td>
+                    <td>30 a 40 minutos</td>
+                    <td class="preco">R$ 70,00</td>
+                </tr>
+                <tr>
+                    <td>Bibimbap (비빔밥)</td>
+                    <td>"Bibim" significa "misturar" e "bap" significa "arroz", o que descreve perfeitamente este prato. O Bibimbap é uma tigela de arroz branco coberta com uma variedade colorida de vegetais salteados, carne (geralmente bovina), um ovo frito com a gema mole por cima e, para finalizar, uma pasta de pimenta coreana (gochujang). A graça do prato está em misturar todos os ingredientes antes de comer.</td>
+                    <td>Arroz branco cozido, Carne bovina (patinho ou alcatra), Espinafre, Cenoura, Abobrinha, Brotos de feijão (moyashi), Cogumelos shiitake, Óleo de gergelim, Alho, Molho de soja (shoyu), Ovos, Gochujang (pasta de pimenta coreana)</td>
+                    <td>45 a 60 minutos</td>
+                    <td class="preco">R$ 60,00</td>
+                </tr>
+                <tr>
+                    <td>Japchae (잡채)</td>
+                    <td>O Japchae é um prato de macarrão de batata-doce (dangmyeon) frito com diversos legumes e, opcionalmente, carne. O macarrão tem uma textura elástica e translúcida única. O molho, à base de shoyu e óleo de gergelim, confere um sabor adocicado e salgado que agrada a muitos paladares.</td>
+                    <td>Macarrão de batata-doce (dangmyeon), Carne bovina (opcional), Espinafre, Cenoura, Cebola, Pimentões coloridos, Cogumelos, Molho de soja (shoyu), Açúcar ou mel, Óleo de gergelim, Alho, Sementes de gergelim torradas</td>
+                    <td>40 a 50 minutos</td>
+                    <td class="preco">R$ 75,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <caption>Sugestões do Chefe</caption>
+            <thead>
+                <tr>
+                    <th>Kimchi (김치)</th>
+                    <th>Japchae (잡채)</th>
+                    <th>Bulgogi (불고기)</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/KIMCHI.png" alt="Prato Kimchi"></td>
+                    <td><img src="img/JAPCHAE.png" alt="Prato Japchae"></td>
+                    <td><img src="img/BULGOGI.png" alt="Prato Bulgogi"></td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+        <footer>
+            <p>Tente em casa</p>
+            <p>Site com receitas: <a href="https://www.koreanbapsang.com/">Receitas Coreanas</a></p>
+            <p>&copy; 2023 Tech. Todos os direitos reservados.</p>
+
+            <a href="#">Termo de Uso</a>
+            <a href="#">Política de Privacidade</a>
+        </footer>
+</html>
