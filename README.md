@@ -1,97 +1,49 @@
-<div align="center">
+# Mini Restaurante
 
-# 🍽️ Mini Restaurante
+<!-- badges -->
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-663399?style=flat-square&logo=css&logoColor=white)
 
-### Site institucional de restaurante — HTML e CSS puros
+[Read in English](README.en.md)
 
-<br>
-
-![HTML](https://img.shields.io/badge/HTML-94.3%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-5.7%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-<br>
-
-![Tipo](https://img.shields.io/badge/Tipo-Projeto_Front--End-4A4A4A?style=flat-square)
-![Páginas](https://img.shields.io/badge/Páginas-3-FFB300?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-6A0DAD?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Concluído-2E8B57?style=flat-square)
-
-<br>
-
-> *Site institucional de um restaurante fictício com múltiplas páginas,*
-> *desenvolvido com HTML semântico e CSS — sem frameworks, sem dependências.*
-
-</div>
-
----
-
-## Sobre o Projeto
-
-O **Mini Restaurante** é um site institucional estático com três páginas navegáveis, simulando a presença digital de um restaurante. O projeto coloca em prática conceitos de **estruturação semântica com HTML**, **estilização com CSS** e **organização de ativos** (imagens e folhas de estilo) em um projeto web real.
-
----
+Site institucional estático de três páginas para o Yamey, um restaurante fictício de cozinha coreana, feito com HTML e CSS puros.
 
 ## Páginas
 
-| Arquivo | Descrição |
-|---|---|
-| `index.html` | Página inicial — apresentação do restaurante |
-| `cardapio.html` | Cardápio com pratos e preços |
-| `contato.html` | Página de contato |
+| Arquivo | Conteúdo |
+| --- | --- |
+| `index.html` | Apresentação do restaurante |
+| `cardapio.html` | Cardápio em tabelas, com pratos como bulgogi, japchae e kimchi e seus preços |
+| `contato.html` | Informações de contato |
 
----
+Todas as páginas compartilham cabeçalho, menu de navegação e rodapé.
+
+## Conceitos praticados
+
+- Estrutura semântica com `header`, `nav` e `footer`
+- Navegação entre páginas com links internos
+- Tabelas para o cardápio
+- Estilização com uma folha de estilo única: tipografia, cores, espaçamento e layout
+- Organização de arquivos em `css/` e `img/`
 
 ## Estrutura
 
 ```
 mini-restaurante/
-├── css/          # Folhas de estilo
-├── img/          # Imagens do site
-├── index.html    # Página inicial
-├── cardapio.html # Cardápio
-└── contato.html  # Contato
+├── index.html
+├── cardapio.html
+├── contato.html
+├── css/styles.css
+└── img/            # logo, fundo e fotos dos pratos
 ```
 
----
+## Como visualizar
 
-## Conceitos Praticados
-
-- Estruturação semântica com HTML5 (`header`, `nav`, `main`, `section`, `footer`)
-- Navegação entre múltiplas páginas com links internos
-- Estilização com CSS: tipografia, cores, espaçamento e layout
-- Organização de projeto web com separação de responsabilidades (HTML / CSS / imagens)
-
----
-
-## Como Visualizar
-
-Nenhuma instalação necessária:
-
-1. Clone ou baixe o repositório
-2. Abra o arquivo `index.html` em qualquer navegador moderno
-3. Navegue pelas páginas usando os links do menu
+Sem dependências: clone o repositório e abra o `index.html` no navegador.
 
 ```bash
 git clone https://github.com/Luisr-nunes/mini-restaurante.git
 ```
 
----
-
 ## Autor
 
-<div align="center">
-
-**Luis Nunes**
-Estudante de ADS — CESAR School
-
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
-
-</div>
-
----
-
-<div align="center">
-
-*🍕 Da estrutura ao prato — front-end construído do zero.*
-
-</div>
+Luís Nunes — [GitHub](https://github.com/Luisr-nunes) · [LinkedIn](https://www.linkedin.com/in/luis-nunes-dev/)
